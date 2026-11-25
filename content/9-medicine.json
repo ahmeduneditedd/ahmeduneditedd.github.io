@@ -1,0 +1,51 @@
+{
+  "title_a": "The",
+  "title_b": "base",
+  "sub": "Where I learn, what I have done, and where it is going.",
+  "figures": [
+    {
+      "value": "[00]",
+      "label": "clinical hours",
+      "text": "Rotations and shadowing. Count the hours you can name."
+    },
+    {
+      "value": "[00]",
+      "label": "papers read and summarized",
+      "text": "Journal club counts. Link a summary if you have one."
+    },
+    {
+      "value": "[00]",
+      "label": "people reached by education",
+      "text": "Talks, posts, workshops. Real reach, not likes."
+    },
+    {
+      "value": "[00]",
+      "label": "pieces written or made",
+      "text": "Posts, zines, looks, projects you can show."
+    }
+  ],
+  "chapters_title": "chapters of work",
+  "chapters": [
+    {
+      "title": "Clinical",
+      "text": "[Rotation, hospital, month]. What you saw, one skill you practiced, one thing that stuck. No patient details."
+    },
+    {
+      "title": "Research",
+      "text": "[Project or review title]. Your question, your role, the status. \"In progress\" is fine."
+    },
+    {
+      "title": "Advocacy and education",
+      "text": "Campaigns, workshops, talks, posts. Who it reached, what changed."
+    },
+    {
+      "title": "Writing and style",
+      "text": "Notes, zines, looks, collaborations. Links and dates."
+    },
+    {
+      "title": "Roles and courses",
+      "text": "Student orgs, BLS, biostatistics, conferences. Dates, not adjectives."
+    }
+  ],
+  "photos": []
+}

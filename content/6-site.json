@@ -1,0 +1,45 @@
+{
+  "site": {
+    "masthead_name": "ahmed magdy",
+    "masthead_place": "[city] · [university]",
+    "masthead_year": "2026",
+    "default_palette": "bloom",
+    "end_kicker": "if you want to learn, build or talk about the unsaid",
+    "end_a": "say",
+    "end_b": "hi",
+    "contact_line": "[you@email.com] · [instagram] · [linkedin]",
+    "footer": "Draft. Bracketed text is a placeholder. No patient information appears on this site."
+  },
+  "pages": [
+    {
+      "id": "home",
+      "name": "Home",
+      "show": true
+    },
+    {
+      "id": "about",
+      "name": "About",
+      "show": true
+    },
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "show": true
+    },
+    {
+      "id": "unspoken",
+      "name": "The unspoken",
+      "show": true
+    },
+    {
+      "id": "taste",
+      "name": "Taste",
+      "show": true
+    },
+    {
+      "id": "notes",
+      "name": "Notes",
+      "show": true
+    }
+  ]
+}

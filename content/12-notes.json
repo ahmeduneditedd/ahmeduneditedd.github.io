@@ -1,0 +1,23 @@
+{
+  "title_a": "Notes,",
+  "title_b": "writing",
+  "sub": "Short pieces on all three worlds.",
+  "items": [
+    {
+      "tag": "Unspoken",
+      "title": "[Title of a note on a topic people avoid]",
+      "date": "[date]"
+    },
+    {
+      "tag": "Medicine",
+      "title": "[Title of a note on something you learned]",
+      "date": "[date]"
+    },
+    {
+      "tag": "Taste",
+      "title": "[Title of a note on style or a reference]",
+      "date": "[date]"
+    }
+  ],
+  "photos": []
+}

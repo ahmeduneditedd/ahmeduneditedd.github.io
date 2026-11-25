@@ -1,0 +1,69 @@
+{
+  "title_a": "A letter",
+  "title_b": "from me",
+  "word": "ahmed",
+  "pronunciation": "[ah-med]",
+  "meanings": [
+    "a future doctor in training.",
+    "someone who asks the question everyone else avoids.",
+    "[your third meaning, make it true]."
+  ],
+  "sticker": "open to everything interesting",
+  "portrait": "",
+  "intro": "[Two or three honest sentences in your voice: who you are, what you study, what else pulls you. Replace this.]",
+  "bring_title": "what I bring",
+  "bring_hint": "Tap a word to see where I show it.",
+  "traits": [
+    {
+      "k": "curiosity",
+      "note": "[one moment you chased a question past the textbook]"
+    },
+    {
+      "k": "honesty",
+      "note": "[a time you said the quiet part out loud, kindly]"
+    },
+    {
+      "k": "taste",
+      "note": "[something you made or styled that people remembered]"
+    },
+    {
+      "k": "empathy",
+      "note": "[one moment where listening changed the outcome]"
+    },
+    {
+      "k": "nerve",
+      "note": "[a conversation you started that others avoided]"
+    }
+  ],
+  "quote": "Learn the mechanism. Then remember the person.",
+  "quote_by": "",
+  "road_title": "the road ahead",
+  "road": [
+    {
+      "when": "now",
+      "title": "Medical school",
+      "text": "[Year, university]. Building the base: anatomy, physiology, pathology."
+    },
+    {
+      "when": "next",
+      "title": "A platform of my own",
+      "text": "[A page, series or project on the topics people avoid.]"
+    },
+    {
+      "when": "then",
+      "title": "Residency",
+      "text": "[Specialty you are leaning toward.]"
+    },
+    {
+      "when": "later",
+      "title": "Advocacy with credentials",
+      "text": "[Where clinic, teaching and public voice meet.]"
+    },
+    {
+      "when": "always",
+      "title": "Open, curious, kind",
+      "text": "[The kind of doctor and person you want to be.]"
+    }
+  ],
+  "photos": []
+}

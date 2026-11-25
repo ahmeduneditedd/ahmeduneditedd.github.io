@@ -1,0 +1,38 @@
+{
+  "kicker": "medical student · [year] · writer · advocate · [your word]",
+  "name_a": "Ahmed",
+  "name_b": "Magdy",
+  "lede": "Medicine, and the things we don't say out loud.",
+  "now": [
+    {
+      "label": "right now",
+      "text": "[year] at [university], rotating in [department]"
+    },
+    {
+      "label": "also",
+      "text": "[writing, advocacy projects, fashion, whatever is true]"
+    },
+    {
+      "label": "write to me",
+      "text": "[you@email.com]"
+    }
+  ],
+  "worlds_title": "three worlds",
+  "worlds": [
+    {
+      "name": "Medicine",
+      "desc": "anatomy, physiology, patients"
+    },
+    {
+      "name": "The Unspoken",
+      "desc": "what we do not say out loud"
+    },
+    {
+      "name": "Fashion and taste",
+      "desc": "clothes, eras, how we present"
+    }
+  ],
+  "quote": "If you want it, work for it.",
+  "quote_by": "",
+  "photos": []
+}
