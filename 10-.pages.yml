@@ -1,0 +1,202 @@
+# Pages CMS: edits the hidden PREVIEW site only (preview-site/content/*.json).
+# The live home page is not listed here, so it cannot be edited from the CMS.
+media:
+  input: preview-site/media
+  output: /preview-site/media
+content:
+  - name: organs
+    label: "Medicine: organ plates (text)"
+    type: file
+    path: preview-site/content/organs.json
+    format: json
+    fields:
+      - name: organs
+        label: Organs (open one to edit its text)
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{k}: {name}" }
+        fields:
+          - { name: k, label: "Which organ (don't change)", type: select, options: { values: [heart, lungs, brain, kidney, endocrine, blood, repro] } }
+          - { name: name, label: Name on the tile, type: string }
+          - { name: line, label: "Italic line after the name", type: string }
+          - { name: love, label: "What I love", type: text }
+          - { name: learned, label: "What I learned", type: text }
+          - { name: met, label: "Where I met it", type: text }
+  - name: rotations
+    label: "Clinical: rotations"
+    type: file
+    path: preview-site/content/rotations.json
+    format: json
+    fields:
+      - name: rotations
+        label: Rotations (add, remove, drag to reorder)
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{n}, {when}" }
+        fields:
+          - { name: n, label: Specialty / rotation name, type: string }
+          - { name: where, label: Hospital (shown highlighted), type: string }
+          - { name: when, label: "Dates, full month names (e.g. October 2026)", type: string }
+          - { name: weeks, label: "Weeks (e.g. 4 weeks)", type: string }
+          - { name: pops, label: Small specialty bubbles, type: string, list: true }
+          - { name: did, label: "What I did (one line each)", type: string, list: true }
+          - { name: hidden, label: Hide from visitors, type: boolean, default: false }
+  - name: outloud
+    label: "Out loud: projects and campaigns"
+    type: file
+    path: preview-site/content/outloud.json
+    format: json
+    fields:
+      - name: featured
+        label: Featured project(s)
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{n}" }
+        fields: &proj
+          - { name: n, label: Title, type: string }
+          - { name: tag, label: Small tag line, type: string }
+          - { name: why, label: Why it matters, type: text }
+          - { name: hidden, label: Hide from visitors, type: boolean, default: false }
+          - name: slides
+            label: Swipe post slides
+            type: object
+            list:
+              collapsible: { collapsed: true, summary: "{t}" }
+            fields:
+              - { name: k, label: "Type", type: select, options: { values: [photo, text, stat] } }
+              - { name: t, label: Main text (or big number), type: string }
+              - { name: d, label: Small text under it, type: text }
+      - name: campaigns
+        label: Campaign posts
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{n}" }
+        fields: *proj
+  - name: text-site
+    label: "All pages: menu, footer, contact line, repeated text"
+    type: file
+    path: preview-site/content/text-site.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-home
+    label: "Home: all text"
+    type: file
+    path: preview-site/content/text-home.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-about
+    label: "About: all text"
+    type: file
+    path: preview-site/content/text-about.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-medicine
+    label: "Medicine: all other text (numbers, teaching, research, conferences...)"
+    type: file
+    path: preview-site/content/text-medicine.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-clinical
+    label: "Clinical: all other text (skills, credentials...)"
+    type: file
+    path: preview-site/content/text-clinical.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-outloud
+    label: "Out loud: all other text"
+    type: file
+    path: preview-site/content/text-outloud.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-taste
+    label: "Taste: all text"
+    type: file
+    path: preview-site/content/text-taste.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
+  - name: text-notes
+    label: "Notes: all text"
+    type: file
+    path: preview-site/content/text-notes.json
+    format: json
+    fields:
+      - name: items
+        label: "Every line of text on this page (open one, change the box, Save)"
+        type: object
+        list:
+          collapsible: { collapsed: true, summary: "{original}" }
+        fields:
+          - { name: original, label: "Original text (do not change)", type: string, readonly: true }
+          - { name: text, label: "Shown on the site", type: text }
+          - { name: size, label: "Size", type: select, default: normal, options: { values: [{ value: smaller, label: Smaller }, { value: normal, label: Normal }, { value: larger, label: Larger }, { value: biggest, label: Biggest }] } }
+          - { name: color, label: "Color (site palette only)", type: select, default: default, options: { values: [{ value: default, label: "Keep the design color" }, { value: ink, label: "Deep wine (dark)" }, { value: red, label: "Rose red" }, { value: rose, label: "Soft pink" }, { value: peri, label: "Periwinkle blue" }, { value: muted, label: "Soft grey-violet" }, { value: white, label: White }] } }
