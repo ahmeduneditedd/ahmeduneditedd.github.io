@@ -1,0 +1,117 @@
+{
+  "featured": [
+    {
+      "n": "Reducing unnecessary C-sections",
+      "tag": "Leadership and management skills project",
+      "why": "In Egypt the C-section rate rose from 27.6% in 2008 to 51.8% in 2014 and 72.2% in 2021. Birth is a medical event and also a moment of autonomy and dignity: informed consent, power dynamics and respectful care. This matters to me because choice in childbirth should be informed, not fear-driven.",
+      "hidden": false,
+      "slides": [
+        {
+          "k": "photo",
+          "t": "[Photo or infographic: obstetric violence awareness]",
+          "d": "Respect, communication and consent during childbirth."
+        },
+        {
+          "k": "stat",
+          "t": "72.2%",
+          "d": "C-section rate in 2021, up from 51.8% in 2014 and 27.6% in 2008."
+        },
+        {
+          "k": "text",
+          "t": "Myth: a C-section is the easier way.",
+          "d": "Truth: it saves lives when needed, and it is still major surgery."
+        },
+        {
+          "k": "photo",
+          "t": "[Instagram campaign post: vaginal delivery myths and facts]"
+        },
+        {
+          "k": "text",
+          "t": "Four parts to the plan",
+          "d": "Medical students workshop, antenatal classes, online awareness, community outreach."
+        }
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "n": "Movember",
+      "tag": "Online campaign with the SCOPH committee",
+      "why": "Male mental, physical and sexual health.",
+      "hidden": false,
+      "slides": [
+        {
+          "k": "stat",
+          "t": "358",
+          "d": "average reach per post, in accounts."
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        }
+      ]
+    },
+    {
+      "n": "Women and War",
+      "tag": "International Women's Day, with the SCORP committee",
+      "why": "We highlighted the struggles and resilience of women in conflict zones, using storytelling and personal testimonies.",
+      "hidden": false,
+      "slides": [
+        {
+          "k": "stat",
+          "t": "293",
+          "d": "average reach per post, in accounts."
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        }
+      ]
+    },
+    {
+      "n": "Sexual Assault Awareness",
+      "tag": "Online campaign",
+      "why": "Evidence-based, respectful awareness for survivors and allies.",
+      "hidden": false,
+      "slides": [
+        {
+          "k": "stat",
+          "t": "302",
+          "d": "average reach per post, in accounts."
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        },
+        {
+          "k": "photo",
+          "t": "[Campaign post or story]"
+        }
+      ]
+    },
+    {
+      "n": "GBV session",
+      "tag": "1st Local General Assembly, NMSSA",
+      "why": "A session on gender-based violence at the first Local General Assembly.",
+      "hidden": false,
+      "slides": [
+        {
+          "k": "photo",
+          "t": "[Photo of the session]"
+        },
+        {
+          "k": "photo",
+          "t": "[Photo or slide]"
+        }
+      ]
+    }
+  ]
+}

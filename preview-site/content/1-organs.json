@@ -1,0 +1,60 @@
+{
+  "organs": [
+    {
+      "k": "heart",
+      "name": "Heart",
+      "line": "four chambers, one rhythm",
+      "love": "[One honest sentence about why the heart pulls you in.]",
+      "learned": "Infective endocarditis, taught as a tutorial in Medicine 1, and antiplatelet therapy in chronic coronary syndrome through a ticagrelor vs clopidogrel study in progress.",
+      "met": "Cardiology rotation at Meniet El-Nasr Central Hospital (October 2026): ECG, echo, central line, emergency defibrillation. ESC Council on Cardiovascular Genomics."
+    },
+    {
+      "k": "lungs",
+      "name": "Lungs",
+      "line": "the tree that breathes",
+      "love": "[One honest sentence about the lungs.]",
+      "learned": "A case of COPD exacerbation with underlying myxedema coma, presented as a Semester 4 grand round.",
+      "met": "Chest teaching within Internal Medicine, Basic Life Support (NHCPS, 2023), open chest drain insertion on the Incision Academy course."
+    },
+    {
+      "k": "brain",
+      "name": "Brain",
+      "line": "where the questions start",
+      "love": "[One honest sentence about the brain.]",
+      "learned": "Pediatric brain tumors (tutorial), peripheral neuropathy (The Hidden Pain), and how little the public knows about multiple sclerosis.",
+      "met": "Semester 5 grand round, a risk assessment reaching 100+ students from 10 Egyptian universities, MS awareness study across Egypt, Jordan and Libya."
+    },
+    {
+      "k": "kidney",
+      "name": "Kidneys",
+      "line": "quiet, constant work",
+      "love": "[One honest sentence about the kidneys.]",
+      "learned": "Chronic kidney injury, told through a grand round with a patient and doctor role play, and how blood pressure, heart and kidneys feed into each other.",
+      "met": "Semester 5 grand round (considered one of the best in the round). Hypertension and cardio-renal-metabolic workshop, Novartis Egypt, 2025."
+    },
+    {
+      "k": "endocrine",
+      "name": "Endocrine",
+      "line": "small glands, big effects",
+      "love": "[One honest sentence about hormones.]",
+      "learned": "Posterior pituitary disorders, taught as a tutorial in Medicine 2.",
+      "met": "PASID congress (Pan Arab Society for Interventional Endocrinology and Diabetes Technology, 2025)."
+    },
+    {
+      "k": "blood",
+      "name": "Blood",
+      "line": "the river that carries it all",
+      "love": "[One honest sentence about hematology.]",
+      "learned": "Recent innovations in Hodgkin lymphoma diagnosis, presented as a poster at the university hematology conference (12 June 2023).",
+      "met": "Hematology within Internal Medicine and Pediatrics (hematology and BM transplant)."
+    },
+    {
+      "k": "repro",
+      "name": "Reproductive",
+      "line": "where autonomy and care meet",
+      "love": "[One honest sentence about women's health.]",
+      "learned": "Ovarian cancer, taught as a tutorial in Gynaecology, and why informed choice in childbirth matters.",
+      "met": "Gynaecology and Obstetrics rotation (May to June 2026), the C-section reduction project, Novartis female health workshop."
+    }
+  ]
+}

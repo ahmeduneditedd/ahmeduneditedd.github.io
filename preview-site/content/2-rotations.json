@@ -1,0 +1,161 @@
+{
+  "rotations": [
+    {
+      "n": "Cardiology",
+      "where": "Meniet El-Nasr Central Hospital, Cardiology Department",
+      "when": "October 2026",
+      "weeks": "4 weeks",
+      "pops": [
+        "ECG",
+        "Central line insertion",
+        "CRP",
+        "Echo",
+        "Emergency defibrillation"
+      ],
+      "did": [
+        "Observed and hands-on experience with the procedures listed above.",
+        "Cardiology ward and emergency work in a busy central hospital."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Ophthalmology",
+      "where": "Ophthalmology Center, Mansoura University",
+      "when": "August 2026",
+      "weeks": "3 weeks",
+      "pops": [],
+      "did": [
+        "[Add two lines about what you saw and practiced.]"
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Otorhinolaryngology (ENT)",
+      "where": "ENT Department, Mansoura University",
+      "when": "July 2026",
+      "weeks": "3 weeks",
+      "pops": [
+        "ENT examination",
+        "Intubation",
+        "Otoscopy",
+        "Laryngoscopy",
+        "Head and neck tumors"
+      ],
+      "did": [
+        "Skills practiced: ENT examination, intubation, otoscopy and laryngoscopy.",
+        "Exposure to head and neck tumors."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Gynaecology and Obstetrics",
+      "where": "Three specialized medical centers, including the Obstetrics and Gynaecology Center",
+      "when": "May to June 2026",
+      "weeks": "6 weeks",
+      "pops": [
+        "Gynaecological oncology",
+        "Infertility",
+        "Contraception counselling",
+        "Outpatient clinics"
+      ],
+      "did": [
+        "Rotation across three specialized centers.",
+        "Outpatient clinics and counselling."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Pediatrics",
+      "where": "Children's Hospital, Mansoura University",
+      "when": "March to April 2026",
+      "weeks": "6 weeks",
+      "pops": [
+        "Genetics",
+        "Pediatric chest",
+        "Pediatric cardiology",
+        "Pediatric GIT",
+        "Pediatric hematology and BM transplant"
+      ],
+      "did": [
+        "Clinical rotation across pediatric subspecialties."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Internal medicine",
+      "where": "Specialized Medical Hospital, Mansoura",
+      "when": "November 2025 to January 2026",
+      "weeks": "10 weeks",
+      "pops": [
+        "Cardiology",
+        "Hematology",
+        "GIT",
+        "Tropical medicine",
+        "Chest"
+      ],
+      "did": [
+        "Ward rounds, outpatient clinics, bedside teaching and case discussions.",
+        "Focused histories and clinical examinations under supervision.",
+        "Lectures on common internal medicine conditions and evidence-based management."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "General surgery",
+      "where": "Mansoura University: Cardiothoracic and Vascular Surgery Center, Oncology Center, Gastrointestinal Surgery Center",
+      "when": "September to October 2025",
+      "weeks": "10 weeks",
+      "pops": [
+        "General and upper GI surgery",
+        "Colorectal surgery",
+        "Hernia surgery",
+        "Trauma surgery",
+        "Cardiovascular surgery"
+      ],
+      "did": [
+        "Rotated across three tertiary centers.",
+        "Ward rounds, bedside teaching and hospital lectures.",
+        "Observed open and laparoscopic procedures across subspecialties."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "General surgery",
+      "where": "Sherbin Central Hospital, Dakahlia",
+      "when": "June to October 2023",
+      "weeks": "",
+      "pops": [],
+      "did": [
+        "Observed and assisted in assessment, examination and management in surgical clinics.",
+        "Attended and assisted in operations, with exposure to perioperative workflow and theatre protocols.",
+        "Surgical lectures and workshops of the Egyptian Fellowship program."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "Emergency medicine and outpatient care",
+      "where": "Hawary Nile Hospital, Sherbin",
+      "when": "June to August 2023",
+      "weeks": "",
+      "pops": [],
+      "did": [
+        "Observed acute assessment and first management across emergency presentations.",
+        "Outpatient clinics: history taking, clinical discussions and follow-up."
+      ],
+      "hidden": false
+    },
+    {
+      "n": "[Draft rotation]",
+      "where": "[Hospital]",
+      "when": "[Month to Month, Year]",
+      "weeks": "[x weeks]",
+      "pops": [
+        "[specialty]"
+      ],
+      "did": [
+        "[Added in the editor, not visible to visitors until you switch it on.]"
+      ],
+      "hidden": true
+    }
+  ]
+}
