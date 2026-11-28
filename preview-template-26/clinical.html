@@ -20,6 +20,8 @@
 <p class="friends-quote">“Welcome to the real world. It sucks. You’re gonna love it.”</p>
 <div class="vidframe">
  <video autoplay loop muted playsinline src="assets/friends.mp4"></video>
+ <button class="sndbtn" type="button">Tap for sound</button>
+ <script>(function(){var f=document.querySelector('.vidframe');if(!f)return;var v=f.querySelector('video'),b=f.querySelector('.sndbtn');b.addEventListener('click',function(){if(v.muted){v.muted=false;v.volume=1;v.play();b.textContent='Sound on';b.classList.add('on')}else{v.muted=true;b.textContent='Tap for sound';b.classList.remove('on')}})})();</script>
 </div>
 <section class="sect"><h2>Rotations, <i>most recent first</i></h2><div class="stl"><div class="stl-item">
  <span class="when">October 2026 · 4 weeks</span>
