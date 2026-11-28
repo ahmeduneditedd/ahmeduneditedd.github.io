@@ -6,30 +6,24 @@
 <title>say hi · ahmeduneditedd</title>
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body class="p-sayhi style-s5">
-
-<header class="nav">
-<a class="brand" href="index.html">ahmeduneditedd</a>
-<input id="navtoggle" type="checkbox" aria-label="menu"><label class="burger" for="navtoggle"><span></span><span></span><span></span></label>
-<nav><a href="index.html">Home</a><a href="about.html">About me</a><a href="medicine.html">Medicine</a><a href="clinical.html">Clinical</a><a href="outloud.html">Out loud</a><a href="taste.html">Taste</a><a href="notes.html">Notes</a><a href="sayhi.html">Say hi</a></nav>
-</header>
+<body class="pg-say">
+<header class="nav"><a class="brand" href="index.html">ahmeduneditedd</a><nav><a href="index.html">Home</a><a href="about.html">About me</a><a href="medicine.html">Medicine</a><a href="clinical.html">Clinical</a><a href="outloud.html">Out loud</a><a href="taste.html">Taste</a><a href="notes.html">Notes</a><a href="sayhi.html" class=on>Say hi</a></nav></header>
 <main>
-
-
-<section class="hero hero-say">
-<h1 class="hero-title">Say hi</h1>
-<p class="hero-lede">If you want to learn, build or talk about the unsaid — write to me.</p>
-<div class="say-links">
-<a class="say-link" href="mailto:[you@email.com]">email <span>[you@email.com]</span></a>
-<a class="say-link" href="#">instagram <span>[@handle]</span></a>
-<a class="say-link" href="#">linkedin <span>[/handle]</span></a>
-</div>
-<p class="cta-note">E-logbook and full portfolio available on request.</p>
+<section class="say-hero">
+ <svg class="topo " viewBox="0 0 420 300" width="420" height="300" aria-hidden="true"><path d="M0 20 C 105.0 6, 252.0 40, 420 8"/><path d="M0 46 C 105.0 64, 252.0 30, 420 56"/><path d="M0 72 C 105.0 58, 252.0 92, 420 82"/><path d="M0 98 C 105.0 116, 252.0 82, 420 86"/><path d="M0 124 C 105.0 110, 252.0 144, 420 134"/><path d="M0 150 C 105.0 168, 252.0 134, 420 160"/><path d="M0 176 C 105.0 162, 252.0 196, 420 164"/><path d="M0 202 C 105.0 220, 252.0 186, 420 212"/><path d="M0 228 C 105.0 214, 252.0 248, 420 238"/><path d="M0 254 C 105.0 272, 252.0 238, 420 242"/><path d="M0 280 C 105.0 266, 252.0 300, 420 290"/></svg>
+ <p class="kick rv" style="font-size:11px;letter-spacing:.32em;text-transform:uppercase;font-weight:800;color:#fff;margin-bottom:16px">final reel — contact</p>
+ <h1 class="rv">Say hi</h1>
+ <p class="lede rv">If you want to learn, build or talk about the unsaid — write to me.</p>
+ <div class="say-links">
+  <a href="mailto:[you@email.com]">email <span>[you@email.com]</span></a>
+  <a href="#">instagram <span>[@handle]</span></a>
+  <a href="#">linkedin <span>[/handle]</span></a>
+ </div>
+ <p style="margin-top:26px;font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:#f5c518;position:relative;z-index:2">E-logbook and full portfolio available on request.</p>
 </section>
-</main>
-<footer class="foot">
-<p class="foot-note">Draft. Bracketed text is a placeholder. No patient information appears on this site.</p>
-<p class="foot-sig">© Ahmed Magdy · <a href="sayhi.html">ahmeduneditedd</a></p>
-</footer>
-
+</main><footer class="foot"><p>Draft. Bracketed text is a placeholder. No patient information appears on this site.</p><p>© Ahmed Magdy</p></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
 </body></html>

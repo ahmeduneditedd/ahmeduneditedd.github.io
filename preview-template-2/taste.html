@@ -6,24 +6,20 @@
 <title>taste · ahmeduneditedd</title>
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body class="p-taste style-s2">
-
-<header class="nav">
-<a class="brand" href="index.html">ahmeduneditedd</a>
-<input id="navtoggle" type="checkbox" aria-label="menu"><label class="burger" for="navtoggle"><span></span><span></span><span></span></label>
-<nav><a href="index.html">Home</a><a href="about.html">About me</a><a href="medicine.html">Medicine</a><a href="clinical.html">Clinical</a><a href="outloud.html">Out loud</a><a href="taste.html">Taste</a><a href="notes.html">Notes</a><a href="sayhi.html">Say hi</a></nav>
-</header>
+<body class="pg-taste">
+<header class="nav"><a class="brand" href="index.html">ahmeduneditedd</a><nav><a href="index.html">home</a><a href="about.html">about me</a><a href="medicine.html">medicine</a><a href="clinical.html">clinical</a><a href="outloud.html">out loud</a><a href="taste.html" class=on>taste</a><a href="notes.html">notes</a><a href="sayhi.html">say hi</a></nav></header>
 <main>
-
-
-<section class="pagehead"><h1 class="page-title">Taste</h1><p class="page-lede">Books I keep going back to, the music on repeat, and the dance I love.</p></section><section class="sec "><p class="sec-label">the shelf</p><div class="cards "><div class="card"><h3>[Book title]</h3><p class=card-sub>[Author]</p><p class=card-body>[Why it stayed with you.]</p></div><div class="card"><h3>[Book title]</h3><p class=card-sub>[Author]</p><p class=card-body>[Why it stayed with you.]</p></div><div class="card"><h3>[Book title]</h3><p class=card-sub>[Author]</p><p class=card-body>[Why it stayed with you.]</p></div></div></section><section class="sec "><p class="sec-label">on repeat</p><div class="cards"><div class="card"><h3>[Playlist name]</h3>
-<p class="card-body">A Spotify player appears here once you send the playlist link. People can play it right on the page.</p></div></div></section><section class="sec "><p class="sec-label">movement</p><div class="feature">
-<h3>Raqs sharqi</h3><p class="card-body">Egyptian dance, also known as belly dance. [Two or three sentences about what it gives you: strength, joy, story, home.]</p>
-<div class="shimmer"><p>Make it shimmer — [Photo or clip of you dancing]</p></div></div></section>
-</main>
-<footer class="foot">
-<p class="foot-note">Draft. Bracketed text is a placeholder. No patient information appears on this site.</p>
-<p class="foot-sig">© Ahmed Magdy · <a href="sayhi.html">ahmeduneditedd</a></p>
-</footer>
-
+<section class="sect"><span class="vword">taste</span><div class="sect-inner">
+ <p class="sect-label">taste</p><h2 class="big rv">Books I keep going back to, the music on repeat, and the dance I love.</h2></div></section>
+<section class="sect"><div class="sect-inner"><p class="sect-label">the shelf</p><div class="rows"><div class="row rv"><b>[Book title]</b><span class="when">[Author]</span><p>[Why it stayed with you.]</p></div><div class="row rv"><b>[Book title]</b><span class="when">[Author]</span><p>[Why it stayed with you.]</p></div><div class="row rv"><b>[Book title]</b><span class="when">[Author]</span><p>[Why it stayed with you.]</p></div></div></div></section>
+<section class="sect"><div class="sect-inner"><p class="sect-label">on repeat</p>
+ <div class="feature rv"><h3>[Playlist name]</h3><p style="margin-top:10px">A Spotify player appears here once you send the playlist link. People can play it right on the page.</p></div></div></section>
+<section class="sect"><div class="sect-inner"><p class="sect-label">movement</p>
+ <div class="feature rv"><p class="tag">dance</p><h3>Raqs sharqi</h3><p style="margin-top:10px">Egyptian dance, also known as belly dance. [Two or three sentences about what it gives you: strength, joy, story, home.]</p>
+ <p style="margin-top:14px;font-family:Caveat,cursive;font-size:21px;color:#2240e6">Make it shimmer — [Photo or clip of you dancing]</p></div></div></section>
+</main><footer class="foot"><p>Draft. Bracketed text is a placeholder. No patient information appears on this site.</p><p>© Ahmed Magdy</p></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
 </body></html>

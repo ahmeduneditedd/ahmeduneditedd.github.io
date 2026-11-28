@@ -6,23 +6,19 @@
 <title>about me · ahmeduneditedd</title>
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body class="p-about style-s6">
-
-<header class="nav">
-<a class="brand" href="index.html">ahmeduneditedd</a>
-<input id="navtoggle" type="checkbox" aria-label="menu"><label class="burger" for="navtoggle"><span></span><span></span><span></span></label>
-<nav><a href="index.html">Home</a><a href="about.html">About me</a><a href="medicine.html">Medicine</a><a href="clinical.html">Clinical</a><a href="outloud.html">Out loud</a><a href="taste.html">Taste</a><a href="notes.html">Notes</a><a href="sayhi.html">Say hi</a></nav>
-</header>
+<body class="pg-about">
+<header class="nav"><a class="brand" href="index.html">ahmed&rsquo;s notebook</a><nav><a href="index.html">home</a><a href="about.html" class=on>about me</a><a href="medicine.html">medicine</a><a href="clinical.html">clinical</a><a href="outloud.html">out loud</a><a href="taste.html">taste</a><a href="notes.html">notes</a><a href="sayhi.html">say hi</a></nav></header>
 <main>
-
-
-<section class="pagehead"><h1 class="page-title">About me</h1>
-<p class="page-lede">Medical student driven by curiosity and a genuine openness to diverse clinical paths.</p>
-<p class="page-body">I am committed to inclusive, patient-centered care and health equity, and I am drawn to the parts of healthcare that meet human rights, dignity and personal autonomy. I am seeking observerships and training that let me learn from many specialties. [Add two honest lines about yourself here.]</p></section><section class="sec "><p class="sec-label">the facts</p><div class="rows"><div class="row"><p class="row-k">Studying</p><p class="row-v">MBBCh, New Mansoura University, Faculty of Medicine</p></div><div class="row"><p class="row-k">Since</p><p class="row-v">September 2022</p></div><div class="row"><p class="row-k">Now</p><p class="row-v">Level 5</p></div><div class="row"><p class="row-k">Looking for</p><p class="row-v">Observerships and clinical training</p></div><div class="row"><p class="row-k">Memberships</p><p class="row-v">ESC Council on Cardiovascular Genomics; ESMO application submitted</p></div><div class="row"><p class="row-k">Languages</p><p class="row-v">Arabic, mother tongue · English, proficient · Deutsch, basics</p></div></div></section><section class="sec "><p class="sec-label">education and self-development projects</p><div class="cards "><div class="card"><h3>The Victim Personality in the workplace · Semester 3</h3><p class=card-body>A self-development project, part of a university course. [One line on what you explored.]</p></div><div class="card"><h3>Dealing with difficult patients · Semester 3</h3><p class=card-body>A scenario role play, part of the same self-development course. [One line on what you practiced.]</p></div></div></section><section class="cta-sec"><p class="cta-note">E-logbook and full portfolio available on request.</p><a class="cta" href="sayhi.html">Say hi →</a></section>
-</main>
-<footer class="foot">
-<p class="foot-note">Draft. Bracketed text is a placeholder. No patient information appears on this site.</p>
-<p class="foot-sig">© Ahmed Magdy · <a href="sayhi.html">ahmeduneditedd</a></p>
-</footer>
-
+<section class="pagehead"><h1 class="page-title">who i am<small>(the short version)</small></h1>
+ <div class="page-lede rv"><p>Medical student driven by curiosity and a genuine openness to diverse clinical paths.</p><p style="margin-top:10px">I am committed to inclusive, patient-centered care and health equity, and I am drawn to the parts of healthcare that meet human rights, dignity and personal autonomy. I am seeking observerships and training that let me learn from many specialties. [Add two honest lines about yourself here.]</p></div></section>
+<section class="sheet"><p class="sheet-label">the facts, taped down</p><div class="rows rv"><div class="row"><b>Studying</b><span>MBBCh, New Mansoura University, Faculty of Medicine</span></div><div class="row"><b>Since</b><span>September 2022</span></div><div class="row"><b>Now</b><span>Level 5</span></div><div class="row"><b>Looking for</b><span>Observerships and clinical training</span></div><div class="row"><b>Memberships</b><span>ESC Council on Cardiovascular Genomics; ESMO application submitted</span></div><div class="row"><b>Languages</b><span>Arabic, mother tongue · English, proficient · Deutsch, basics</span></div></div></section>
+<section class="sheet"><p class="sheet-label">school projects i still think about</p><div class="scraps"><div class="scrap " style="--r:-1.4deg"><span class="tape"></span><h3>The Victim Personality in the workplace</h3><p class="tagline">Semester 3</p><p>A self-development project, part of a university course. [One line on what you explored.]</p></div><div class="scrap " style="--r:1.1deg"><span class="tape"></span><h3>Dealing with difficult patients</h3><p class="tagline">Semester 3</p><p>A scenario role play, part of the same self-development course. [One line on what you practiced.]</p></div></div>
+ <p class="tagline" style="margin-top:26px">E-logbook and full portfolio available on request. <a class="go" href="sayhi.html">say hi &rarr;</a></p></section>
+</main><footer class="foot">
+<p>Draft. Bracketed text is a placeholder. No patient information appears on this site.</p>
+<p class="sig">© Ahmed Magdy · ahmeduneditedd</p></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
 </body></html>

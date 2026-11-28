@@ -6,22 +6,18 @@
 <title>notes · ahmeduneditedd</title>
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body class="p-notes style-s4">
-
-<header class="nav">
-<a class="brand" href="index.html">ahmeduneditedd</a>
-<input id="navtoggle" type="checkbox" aria-label="menu"><label class="burger" for="navtoggle"><span></span><span></span><span></span></label>
-<nav><a href="index.html">Home</a><a href="about.html">About me</a><a href="medicine.html">Medicine</a><a href="clinical.html">Clinical</a><a href="outloud.html">Out loud</a><a href="taste.html">Taste</a><a href="notes.html">Notes</a><a href="sayhi.html">Say hi</a></nav>
-</header>
+<body class="pg-notes">
+<header class="nav"><a class="brand" href="index.html">ahmeduneditedd®</a><nav><a href="index.html">home</a><a href="about.html">about me</a><a href="medicine.html">medicine</a><a href="clinical.html">clinical</a><a href="outloud.html">out loud</a><a href="taste.html">taste</a><a href="notes.html" class=on>notes</a><a href="sayhi.html">say hi</a></nav></header>
 <main>
-
-
-<section class="pagehead"><h1 class="page-title">Notes</h1><p class="page-lede">Short pieces, whenever I write.</p></section>
-<section class="sec"><div class="notes"><article class="note"><p class="note-date">[Date]</p><h3>[A short piece about something you saw or learned]</h3><p>[Write a few lines here. Notes are short, honest and never include patient details.]</p></article><article class="note"><p class="note-date">[Date]</p><h3>[Something you wish people said out loud]</h3><p>[Write a few lines here.]</p></article></div></section>
-</main>
-<footer class="foot">
-<p class="foot-note">Draft. Bracketed text is a placeholder. No patient information appears on this site.</p>
-<p class="foot-sig">© Ahmed Magdy · <a href="sayhi.html">ahmeduneditedd</a></p>
-</footer>
-
+<div class="bighead left">
+<span class="bh-num">(01)</span>
+<h2 class="rv">Notes</h2>
+<p class="bh-note">short pieces, whenever</p>
+</div>
+<div class="tbl"><div class="tr rv"><b>[A short piece about something you saw or learned]</b><span class="when">[Date]</span><p>[Write a few lines here. Notes are short, honest and never include patient details.]</p></div><div class="tr rv"><b>[Something you wish people said out loud]</b><span class="when">[Date]</span><p>[Write a few lines here.]</p></div></div>
+</main><footer class="foot"><p>Draft. Bracketed text is a placeholder. No patient information appears on this site.</p><p>© Ahmed Magdy — portfolio brief, 2026 edition</p></footer>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script>
 </body></html>
