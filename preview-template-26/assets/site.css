@@ -449,6 +449,9 @@ body.pg-home .hero-o .name{color:#b84a68}
 .sndbtn{position:absolute;right:14px;bottom:14px;z-index:3;background:var(--paper);color:var(--ink);border:none;border-radius:999px;padding:9px 16px;font-family:'Archivo Black',sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.28);transition:transform .2s}
 .sndbtn:hover{transform:scale(1.07)}
 .sndbtn.on{background:var(--red);color:var(--paper)}
+/* 26 fixes: maroon Say hi pill, raised registered mark */
+.sayhi{background:#7d1424}
+.brand sup{vertical-align:super;font-size:.5em;line-height:0}
 .vidframe .vnote{position:absolute;inset:0;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;
  color:#f6efe3;text-align:center;padding:20px;pointer-events:none}
 .vidframe .vnote b{font-family:'Caveat',cursive;font-weight:700;font-size:clamp(19px,2.4vw,26px)}
